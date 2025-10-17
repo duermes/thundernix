@@ -52,6 +52,21 @@ Esta separación permite que cada característica sea desarrollada de forma aisl
 *   **`MyApp` (`lib/app/app.dart`)**: El widget principal que configura el entorno de la aplicación, incluyendo el enrutador, los temas y la localización.
 *   **`buildRouter()` (`lib/app/router.dart`)**: Función que construye y configura las rutas de la aplicación usando `GoRouter`.
 
+## Dependencias Principales
+
+El proyecto utiliza varias dependencias clave para su funcionamiento:
+
+*   **`flutter`**: El framework principal para construir la interfaz de usuario.
+*   **`flutter_localizations`**: Para la internacionalización y localización de la aplicación.
+*   **`cupertino_icons`**: Incluye los iconos de estilo iOS.
+*   **`go_router`**: Un enrutador declarativo para Flutter que simplifica la navegación, el paso de parámetros y el deep-linking.
+*   **`flutter_svg`**: Permite el uso de imágenes SVG, que son escalables y ligeras.
+
+### Dependencias de Desarrollo
+
+*   **`flutter_test`**: Para escribir y ejecutar pruebas de widgets.
+*   **`flutter_lints`**: Contiene un conjunto de lints recomendados para fomentar buenas prácticas de codificación.
+
 ## Cómo Empezar
 
 Para ejecutar este proyecto, asegúrate de tener Flutter instalado y sigue estos pasos:
